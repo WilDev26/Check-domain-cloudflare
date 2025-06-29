@@ -1,8 +1,8 @@
 # CHECK SUBDOMAIN CLOUDFLARE
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&random=false&width=435&lines=CHECK SUBDOMAIN CLOUDFLARE)](https://git.io/typing-svg)
+adalah alat untuk mengecek domain terhubung dengan cloudflare atau tidak
 ## DOWNLOAD TERMUX FDROID
 * Unduh & Install Termux [`Klik Disini`](https://f-droid.org/repo/com.termux_118.apk)
-### Instalation on Termux & Running
+### Instalation 
 ```makefile
 pkg update -y && pkg upgrade -y && pkg install git python-pip && git clone https://github.com/WilDev26/Check-domain-cloudflare.git && cd Check-domain-cloudflare && pip install -r requirements.txt
 ```
