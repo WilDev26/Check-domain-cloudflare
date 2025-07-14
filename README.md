@@ -8,7 +8,7 @@ pkg update -y && pkg upgrade -y && pkg install git python-pip tesseract && git c
 ```
 ## UNTUK MENJALAKAN COPY PERINTAH
 ```makefile
-python3 Run.py
+python3 Running.py
 ```
 ### BUG LAPORKAN
 <a href="https://t.me/Bagas_ocarius" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&mssage=Click%20Here&color=blue"></a>
