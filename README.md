@@ -4,7 +4,7 @@ adalah alat untuk mengecek domain terhubung dengan cloudflare atau tidak
 * Unduh & Install Termux [`Klik Disini`](https://f-droid.org/repo/com.termux_118.apk)
 ### Instalation 
 ```makefile
-pkg update -y && pkg upgrade -y && pkg install git python-pip tesseract && git clone https://github.com/WilDev26/Check-domain-cloudflare.git && cd Check-domain-cloudflare && pip install -r requirements.txt && make install
+pkg update -y && pkg upgrade -y && pkg install git python-pip tesseract && pkg install make && pkg install clang && git clone https://github.com/WilDev26/Check-domain-cloudflare.git && cd Check-domain-cloudflare && pip install -r requirements.txt && make install
 ```
 ## UNTUK MENJALAKAN COPY PERINTAH
 ```makefile
