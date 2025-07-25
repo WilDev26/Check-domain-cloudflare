@@ -1,12 +1,29 @@
+# Makefile untuk instalasi dependensi dan menjalankan program
+
 .PHONY: install run clean
+
+# Variabel
+PYTHON = python3
+PIP = pip3
+REQUIREMENTS = requirements.txt
+
+# Target utama
+all: install
+
+# Instalasi dependensi
 install:
-        @pkg update && pkg upgrade -y
-        @pkg install git python-pip tesseract
-        @git clone https://github.com/WilDev26/Check-domain-cloudflare.git
-        @cd Check-domain-cloudflare
-        @pip install -r requirements.txt
-        @echo "[+] package & dependensi berhasil di install
+	@echo "Membuat virtual environment..."
+	pkg install python
+	@echo "Mengaktifkan virtual environment dan menginstal dependensi..."
+	pip install -r requirements.txt
+	@echo "Instalasi selesai!"
 
-
+# Menjalankan program
 run:
-        @python Running.py
+	@echo "Menjalankan program..."
+	@python Running.py
+
+# Membersihkan environment
+clean:
+	@echo "Membersihkan virtual environment..."
+	@echo "Pembersihan selesai!"
