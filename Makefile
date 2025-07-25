@@ -1,3 +1,4 @@
+.PHONY: install run clean
 install:
         @pkg update && pkg upgrade -y
         @pkg install git python-pip tesseract
